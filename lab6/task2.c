@@ -7,7 +7,7 @@
 void printData(int number)
 {
 	struct timeb tmb;
-	for (int i = 0; i < 5; i++) {
+	for (int i = 0; i < 10; i++) {
 		ftime(&tmb);
 		printf("thread number = %02d, pid = %02d, ppid = %02d, current time (ms) = %02d\n",
 			number,
